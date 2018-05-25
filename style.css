@@ -1,0 +1,395 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+<link href="https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Kavivanar|Permanent+Marker" rel="stylesheet">
+
+
+
+
+
+
+
+.main_banner {
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	line-height: 100vh;
+	overflow: hidden;
+	text-align: center;
+	box-sizing: border-box;
+	color: white;
+	font-weight: 500;
+	font-size: 2em;
+}
+
+.main_banner .video {
+	width: 100%;
+}
+
+.main_banner nav {
+	position: absolute;
+	top : 0;
+	z-index: 999;
+	width: 100%
+	height:80px;
+	line-height: 110px;
+	text-align: right;
+	margin:
+}
+
+.main_banner nav ul {
+	display: inline-block;
+	margin-left: 1510px;
+}
+
+.main_banner nav ul li{
+	float: left;
+	font-size: 18px;
+	list-style: none;
+	margin: 0 20px;
+}
+
+.main_banner nav ul li a{
+	color: rgba(255, 255, 255, 0.8);
+}
+
+.main_banner nav ul li a:hover {
+	color: rgba(255, 255, 255, 1);
+}
+
+.main_banner .video_sample_text {
+	position: absolute !important;
+	top: 0;
+	z-index: 10;
+	margin-top: 450px !important;
+	font-size: 60px;
+	font-weight: 600;
+	text-align: center !important;
+	color: white;
+	width: 100%
+}
+
+.banner_info {
+	background-color: #d3d1d3 !important;
+	text-align: center;
+	padding: 80px 0;
+}
+
+.banner_info h1 {
+	font-size: 38px;
+	font-weight: 550;
+}
+
+.banner_info p {
+	font-size: 20px;
+	line-height: 32px;
+	margin-top: 18px;
+	color: #999999;
+}
+
+#id_portfolio {
+	margin-top: 54px;
+	font-size: 36px;
+	margin-bottom: 40px;
+	font-weight: 780;
+
+
+}
+
+.portfolio_area {
+	text-align: center;
+	margin-bottom: 140px;
+}
+
+.portfolio_area .container {
+	width: 1000px;
+	margin: 0 auto;
+	padding: 0;
+
+}
+
+.portfolio_area .container h1{
+	width: 30px;
+	font-weight: 670;
+	margin: 30px 0 50px;
+}
+
+.portfolio_area .container .card {
+	position: relative;
+	display: inline-block;
+	margin: 12px;
+	cursor: pointer;
+
+	-webkit-transform: all 0.24s ease;
+	transition:  all 0.24s ease;
+
+	-webkit-transform: scale(1);
+	transform: scale(1);
+}
+
+.portfolio_area .container .card .pf_thumbnail {
+	width: 300px;
+	height: 300px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.portfolio_area .container .card .pf_thumbnail_01 {
+	background-image: url(../image/01.jpg);
+}
+
+.portfolio_area .container .card .pf_thumbnail_02 {
+	background-image: url(../image/02.jpg);
+}
+
+.portfolio_area .container .card .pf_thumbnail_03 {
+	background-image: url(../image/03.jpg);
+}
+
+.portfolio_area .container .card .pf_thumbnail_04 {
+	background-image: url(../image/04.jpg);
+}
+
+.portfolio_area .container .card .pf_thumbnail_05 {
+	background-image: url(../image/05.jpg);
+}
+
+.portfolio_area .container .card .pf_thumbnail_06 {
+	background-image: url(../image/06.jpg);
+}
+
+.portfolio_area .container .card .pf_thumbnail_07 {
+	background-image: url(../image/07.jpg);
+}
+
+.portfolio_area .container .card .pf_thumbnail_08 {
+	background-image: url(../image/08.jpg);
+}
+
+.portfolio_area .container .card .pf_thumbnail_09 {
+	background-image: url(../image/09.jpg);
+}
+
+.portfolio_area .container .card .pf_thumbnail_text {
+	display: none;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%
+	background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+.portfolio_area .container .card .pf_thumbnail_text h3{
+	color: white;
+	font-size: 18px;
+	margin: 0;
+	height: 300px;
+	line-height: 300px;
+}
+
+.portfolio_area .container .card:hover {
+	-webkit-transform: scale(1.07);
+	transform: scale(1.07);
+
+}
+
+
+.portfolio_area .container .card:hover .pf_thumbnail_text {
+	display: block;
+}
+
+
+
+
+
+
+footer {
+	text-align: center;
+	background-color: #444444;
+	color: white;
+	height: 80px;
+	line-height: 80px;
+
+}
+
+footer p {
+	margin: 0;
+	font-size: 18px;
+}
+
+
+
+
+.modal .modal-dialog_portfolio {
+	width: 800px;
+	text-align: center;
+	margin: 80px auto;
+
+}
+
+.modal .modal-dialog_portfolio .modal-content img {
+	width: 100%;
+}
+
+.modal .modal-dialog_portfolio .modal-content h1 {
+	font-size: 50px;
+	font-weight: bold;
+	color: #333333;
+	margin: 50px 0 15px;
+}
+
+.modal .modal-dialog_portfolio .modal-content h3 {
+	font-size: 17px;
+	color: #aaaaaa;
+	margin-bottom: 40px;
+}
+
+.modal .modal-dialog_portfolio .modal-content p {
+	text-align: left;
+	font-size: 14px;
+	color: #777777;
+	padding: 0 70px;
+	margin: 15px 0;
+	line-height: 20px;
+}
+
+
+.modal .modal-dialog_portfolio .modal-content a {
+	text-decoration: none;
+	font-size: 18px;
+	font-weight: 650;
+	border: 1px solid #ddd;
+	background-color: white;
+	color: #555555;
+	margin: 28px 0 24px;
+	display: inline-block;
+	padding: 8px 30px;
+	-webkit-transition: all 0.2 ease;
+	transition: all 0.2 ease;
+}
+
+.modal .modal-dialog_portfolio .modal-content a:hover {
+
+	background-color: #cccccc;
+	color: white;
+	border-color: #ccc;
+
+}
+
+.modal .modal-dialog_portfolio .modal-content h5 {
+	display: inline-block;
+	font-size: 14px;
+	color: #666666;
+	margin: 20px 0 60px;
+	cursor: pointer;
+	-webkit-transition:  all 0.2s ease;
+	transition:  all 0.2s ease;
+
+}
+
+#back_to_P {
+	font-weight: 640px;
+	border : 1px solid #fff;
+}
+
+
+
+.modal .modal-dialog_portfolio .modal-content h5:hover {
+	color: #0dd174;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
