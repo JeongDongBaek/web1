@@ -1,0 +1,40 @@
+body {
+	background-color: #F5F5F5;
+	color: #555;
+	font-size: 1.1em;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+
+
+/* ID선택자일경우 #으로 시작합니다.  */
+#ID_selector {
+	color: red;
+}
+
+.id_classname {
+	font-size: 50px;
+}
+
+
+/* class 선택자일 경우 .으로 시작합니다. */
+.class_selector {
+	color: green !important; /* important 쓰면 이것이 제일 먼저 인식된다. */
+}
+
+h3.class_selector {
+	border: 5px solid #ccc;
+}
+
+
+li.class_selector { /* 특정 엘리먼트.클래스 */
+	background-color: #bbb; /* 위 속성(.class_selector)도 인식되지만 li에 한번더 인식되는 클래스 */
+}
+
+.class_selector_1{
+	font-size: 45px;
+}
+
+.class_selector_2{
+	color: blue;
+}

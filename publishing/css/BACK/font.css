@@ -1,0 +1,51 @@
+@import url(http://fonts.googleapis.com/css?family=Dekko);
+@import 'https://fonts.googleapis.com/css?family=Sunflower:300,500,700';
+
+body {
+	background-color: #1FF000;
+	color: #555;
+	font-size: 1.1em;
+	font-family: 'Sunflower','Helvetica Neue', Helvetica, Arial, sans-serif; /* 영문이 없는 국문 의 경우인 sans-serif; 앞에 있는 것들이 국문이 없을경우 사용된다. */
+}
+
+
+#ID_con {
+	text-align: center;
+	letter-spacing: 6px;
+	white-space: pre-line;
+	border: 5px solid;
+	padding: 10px;
+}
+
+.element {
+	background: #fff;
+	padding: 1em;
+}
+
+.element p {
+	/* font-size: 1.25em; 태그속성이 먼저이기때문에 밑(first,second,third)의 폰트사이즈를 무시하게 된다. */
+	background-color: #3c5596;
+	color: white;
+	padding: 1em;
+	margin: 1em;
+	text-align: center;
+}
+
+.first {
+	font-weight: 300;
+	font-size: 28px;
+	word-spacing : 45px ;
+
+}
+
+.second {
+	font-weight: 500;
+	font-size: 48px;
+	word-spacing : 75px ;
+}
+
+.third {
+	font-weight: 700;
+	font-size: 72px;
+}
+
